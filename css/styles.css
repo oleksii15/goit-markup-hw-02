@@ -8,13 +8,13 @@ body {
 }
 
 .logo {
-    color: #000000;
-}
+    color: #2196F3;
+    }
    
 .list {
     list-style:none;
 }
-.site-nav .link {
+.site-nav a {
 color: #212121;
 }
 .site-nav .link:hover, 
@@ -22,6 +22,8 @@ color: #212121;
     color: #2196F3
     ;
 }
-.feature-list .title {
+
+
+.section-title {
     color: #212121;
 }
