@@ -1,29 +1,36 @@
 
-
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
 
 body {
  
-    color: #757575;
+    color: var(--primary-text-color) ;
     background: #ffffff;
 }
 
 .logo {
-    color: #2196F3;
+    color: var(--accent-color);
     }
    
 .list {
     list-style:none;
 }
 .site-nav a {
-color: #212121;
+color: var(--title-text-color);
 }
 .site-nav .link:hover, 
 .site-nav .linl:focus {
-    color: #2196F3
+    color: var(--accent-color)
     ;
+}
+.site-nav .link {
+    color: var(--accent-color)
 }
 
 
 .section-title {
-    color: #212121;
+    color: var(--);
 }
