@@ -3,6 +3,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --white-text-color: #FFFFFF;
 }
 
 body {
@@ -26,11 +27,21 @@ color: var(--title-text-color);
     color: var(--accent-color)
     ;
 }
-.site-nav .link {
-    color: var(--accent-color)
-}
+
 
 
 .section-title {
     color: var(--title-text-color);
+}
+
+.button:hover,
+.button:focus {
+color: var(--accent-color);
+}
+.address:hover,
+.address:focus {
+    color: var(--new-color);
+}
+.address{
+    color: var(--white-text-color);
 }
