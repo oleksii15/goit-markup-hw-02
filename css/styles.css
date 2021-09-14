@@ -9,18 +9,51 @@
 body {
  
     color: var(--primary-text-color) ;
-    background: #ffffff;
+    background: var(--white-text-color) ;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 0.58;
+   
+    
 }
-
+.logo:hover, .logo:focus {
+    --accent-color: #2196F3; 
+}
 .logo {
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+     font-size: 26px;
+    line-height: 1.2;
+    }
+
+    .logo-black:hover, .logo-black:focus {
+        --accent-color: #2196F3;  
+    }
+    .logo-black {
+        color: #000000;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 31px;
     }
    
 .list {
-    list-style:none;
+    list-style: none;
+}
+.site-nav {
+    list-style: none;
 }
 .site-nav a {
 color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+
+
 }
 .site-nav .link:hover, 
 .site-nav .linl:focus {
@@ -32,20 +65,38 @@ color: var(--title-text-color);
 
 .section-title {
     color: var(--title-text-color);
+    font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
 }
 
+.button {
+    cursor: pointer;
+}
 .button:hover,
 .button:focus {
 color: var(--accent-color);
+
 }
 .address:hover,
 .address:focus {
     color: var(--new-color);
 }
 .address{
+    font-size: 14px;
+    line-height: 0.58;
     color: var(--white-text-color);
 }
 
+
+.hero-title {
+    color: var(--white-text-color);
+    font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+}
 
 .mail:hover,
 .mail:focus {
@@ -53,10 +104,24 @@ color: var(--accent-color);
 }
 .mail {
     color: var(--primary-text-color);
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
 }
 .phone:hover, .phone:focus {
    color: var(--accent-color); 
 }
 .phone {
     color: var(--primary-text-color);
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+
+.section-title-work, .section-title-team {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
 }
