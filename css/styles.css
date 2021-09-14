@@ -45,3 +45,18 @@ color: var(--accent-color);
 .address{
     color: var(--white-text-color);
 }
+
+
+.mail:hover,
+.mail:focus {
+color: var(--accent-color);
+}
+.mail {
+    color: var(--primary-text-color);
+}
+.phone:hover, .phone:focus {
+   color: var(--accent-color); 
+}
+.phone {
+    color: var(--primary-text-color);
+}
