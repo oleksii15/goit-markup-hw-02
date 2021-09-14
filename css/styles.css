@@ -70,14 +70,16 @@ font-size: 14px;
 line-height: 1.14;
 }
 
-.button {
-    cursor: pointer;
-}
+
 .button:hover,
-.button:focus {
+.button:focus  {
 color: var(--accent-color);
+cursor: pointer;
 
 }
+
+
+
 .address:hover,
 .address:focus {
     color: var(--new-color);
