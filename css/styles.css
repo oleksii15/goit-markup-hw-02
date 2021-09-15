@@ -53,7 +53,7 @@ body {
     
     .logo-black {
         color: var(--logo-black);
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -61,7 +61,7 @@ body {
     }
     .logo-white {
         color: var(--white-text-color);
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-weight: bold;
         font-size: 26px;
         line-height: 1.19;
@@ -152,21 +152,19 @@ body {
     }
 
 
-    .phone:hover, .phone:focus {
-   color: var(--accent-color); 
-    }
-    .phone {
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
-    }
+        .phone:hover, .phone:focus {
+        color: var(--accent-color); 
+        }
+        .phone {
+        color: var(--primary-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        text-decoration: none;
+        }
 
     .footer {
         
         background-color: var(--black-bg-color);
     }
-    .footer-list {
-        list-style: none;
-    }
+    
