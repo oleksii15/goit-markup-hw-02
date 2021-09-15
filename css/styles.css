@@ -110,10 +110,14 @@ body {
         text-align: center;
     }
 
-    .button-hero:hover, 
-        .button-hero:focus {
+    .button-hero {
         background-color: var(--accent-color);
         color: var(--white-text-color);
+    }
+    .button-hero:hover, 
+        .button-hero:focus {
+        
+        color: var(--accent-color);
         cursor: pointer;
     }
 
