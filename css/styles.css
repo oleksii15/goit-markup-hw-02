@@ -6,6 +6,7 @@
     --white-text-color: #FFFFFF;
     --black-bg-color: #2F303A;
     --button-grey-color:#F5F4FA;
+    --logo-black: #000000;
 }
 
 body {
@@ -38,7 +39,7 @@ body {
 
 
     .logo:hover, .logo:focus {
-    --accent-color: #2196F3;}
+    --accent-color: var(var(--accent-color))}
     
     .logo {
     color: var(--accent-color);
@@ -50,15 +51,23 @@ body {
     }
 
     .logo-black:hover, .logo-black:focus {
-        --accent-color: #2196F3;  
+        --accent-color: var(--accent-color);
     }
     .logo-black {
-        color: #000000;
+        color: var(--logo-black);
         font-family: Raleway;
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
         text-decoration: none;
+    }
+    .logo-white {
+        color: var(--white-text-color);
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 31px;
+        text-emphasis: none;
     }
    
 
