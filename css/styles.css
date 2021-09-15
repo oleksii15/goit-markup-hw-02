@@ -38,8 +38,7 @@ body {
     }
 
 
-    .logo:hover, .logo:focus {
-    --accent-color: var(var(--accent-color))}
+    
     
     .logo {
     color: var(--accent-color);
@@ -50,15 +49,14 @@ body {
     text-decoration: none;
     }
 
-    .logo-black:hover, .logo-black:focus {
-        --accent-color: var(--accent-color);
-    }
+    
+    
     .logo-black {
         color: var(--logo-black);
         font-family: Raleway;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         text-decoration: none;
     }
     .logo-white {
@@ -66,7 +64,7 @@ body {
         font-family: Raleway;
         font-weight: bold;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         text-emphasis: none;
     }
    
