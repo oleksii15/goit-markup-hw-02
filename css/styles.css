@@ -5,6 +5,7 @@
     --accent-color: #2196F3;
     --white-text-color: #FFFFFF;
     --black-bg-color: #2F303A;
+    --button-grey-color:#F5F4FA;
 }
 
 body {
@@ -107,6 +108,10 @@ body {
         color: var(--white-text-color);
     }
 
+    .button {
+        background-color: var(--button-grey-color);
+        color: var(--title-text-color);
+    }
     .button:hover,
     .button:focus  {
     color: var(--accent-color);
