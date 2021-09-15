@@ -162,5 +162,9 @@ body {
     }
 
     .footer {
+        
         background-color: var(--black-bg-color);
+    }
+    .footer-list {
+        list-style: none;
     }
