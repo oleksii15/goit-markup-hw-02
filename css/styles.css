@@ -4,6 +4,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --white-text-color: #FFFFFF;
+    --black-bg-color: #2F303A;
 }
 
 body {
@@ -64,6 +65,9 @@ body {
         list-style: none;
         }
 
+        .hero-section{
+            background-color: var(--black-bg-color);
+        }
     .hero-title {
     color: var(--white-text-color);
     font-weight: 900;
@@ -86,7 +90,10 @@ body {
         text-align: center;
     }
 
-
+    .button-hero {
+        background-color: var(--accent-color);
+        color: var(--white-text-color);
+    }
 
     .button:hover,
     .button:focus  {
@@ -130,3 +137,6 @@ body {
     line-height: 1.14;
     }
 
+    .footer {
+        background-color: var(--black-bg-color);
+    }
