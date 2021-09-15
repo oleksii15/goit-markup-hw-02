@@ -113,6 +113,7 @@ body {
     .button-hero {
         background-color: var(--accent-color);
         color: var(--white-text-color);
+        cursor: pointer;
     }
 
     .button {
