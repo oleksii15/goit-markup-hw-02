@@ -37,6 +37,14 @@ body {
     list-style: none;
     }
 
+    .site-nav .link-current {
+        color: var(--accent-color);
+    }
+
+    .link .current {
+       color: var(--accent-color);
+    }
+
 
     
     
@@ -116,8 +124,6 @@ body {
     }
     .button-hero:hover, 
         .button-hero:focus {
-        
-        color: var(--accent-color);
         cursor: pointer;
     }
 
@@ -127,15 +133,12 @@ body {
     }
     .button:hover,
     .button:focus  {
-    color: var(--accent-color);
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
     cursor: pointer;
 }
 
-    .address:hover,
-    .address:focus {
-    color: var(--new-color);
-    }
-
+   
     .address{
     font-size: 14px;
     line-height: 0.58;
@@ -172,5 +175,8 @@ body {
     .footer {
         
         background-color: var(--black-bg-color);
+    }
+    .footer-list {
+        text-decoration: none;
     }
     
