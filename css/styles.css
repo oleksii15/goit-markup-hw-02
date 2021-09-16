@@ -42,6 +42,7 @@ body {
 
 .site-nav-link-current {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .logo {
@@ -85,6 +86,12 @@ body {
   text-align: center;
 }
 
+.features-title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+}
+
 .filters-title {
   color: var(--title-text-color);
   font-size: 14px;
@@ -96,6 +103,10 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+.work-list,
+.team-list {
+  list-style: none;
 }
 
 .team-heading {
@@ -121,12 +132,12 @@ body {
   cursor: pointer;
 }
 
-.button {
+.filters-button {
   background-color: var(--button-grey-color);
   color: var(--title-text-color);
 }
-.button:hover,
-.button:focus {
+.filters-button:hover,
+.filters-button:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
   cursor: pointer;
@@ -134,12 +145,13 @@ body {
 
 .contacts-address {
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1.71;
   color: var(--white-text-color);
 }
 
 .contacts {
   list-style: none;
+  text-decoration: none;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -155,7 +167,4 @@ body {
 
 .footer {
   background-color: var(--black-bg-color);
-}
-.contacts {
-  text-decoration: none;
 }
