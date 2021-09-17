@@ -20,6 +20,7 @@ body {
 .list {
   list-style: none;
 }
+
 .site-nav {
   color: var(--title-text-color);
   font-weight: 500;
@@ -157,7 +158,15 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
+.contacts-link-footer {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
 .footer {
   background-color: var(--black-bg-color);
 }
