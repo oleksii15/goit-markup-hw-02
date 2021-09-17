@@ -140,7 +140,7 @@ body {
   cursor: pointer;
 }
 
-.contacts-address {
+.footer-address {
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-text-color);
@@ -151,8 +151,8 @@ body {
   color: var(--accent-color);
 }
 
-.contacts-link-footer:hover,
-.contacts-link-footer:focus {
+.footer-link:hover,
+.footer-link:focus {
   color: var(--accent-color);
 }
 
@@ -164,7 +164,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contacts-link-footer {
+.footer-link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -173,6 +173,6 @@ body {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
-.contacts {
+.footer {
   background-color: var(--black-bg-color);
 }
