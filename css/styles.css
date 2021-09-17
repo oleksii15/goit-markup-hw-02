@@ -150,6 +150,12 @@ body {
 .contacts-link:focus {
   color: var(--accent-color);
 }
+
+.contacts-link-footer:hover,
+.contacts-link-footer:focus {
+  color: var(--accent-color);
+}
+
 .contacts-link {
   color: var(--primary-text-color);
   font-weight: 500;
